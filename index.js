@@ -1,11 +1,14 @@
-var n=5
-var star=""
-for (var i=1; i<=n; i++)
-{
-  for (var j=0; j<i;j++)
-  {
-    star = star + "*"
-  }
-  star= star+"\n"
+//7//
+// function add(parameterOne, parameterTwo) {
+//   var outputValue= parameterOne + parameterTwo
+//   return outputValue;
+// }
+// var result = add(5,5);
+// console.log("addition of 5 and 5 is= " + result)
+
+function mul(parameterOne, parameterTwo) {
+  var outputValue= parameterOne * parameterTwo
+  return outputValue;
 }
-console.log(star)
+
+console.log("ans is " + mul(2,3))
